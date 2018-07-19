@@ -74,6 +74,8 @@
               var data = {};
               data.name = v;
               this.peoples.push(data);
+              this.showAdd = false;
+              this.nameValue='';
           }
 
         },
